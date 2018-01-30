@@ -1,0 +1,9 @@
+function result =  Rastringe_GS(x, thita, l)
+	
+    % pinakas pou antiproswpeuei to Xi
+    answ_1 = (x+l*thita).^2;
+    
+
+	result = x.^2 -10*cos(2*pi.*x);
+    f = 20.0 + sum(result);
+end
